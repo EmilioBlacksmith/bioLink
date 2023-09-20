@@ -1,7 +1,7 @@
 export function Links()
 {
     return(
-        <>
+        <div className="links">
             <a 
                 className=''
                 href="https://www.youtube.com/emilioblacksmith" target="_blank"
@@ -32,6 +32,6 @@ export function Links()
             >
                 My Github
             </a>
-        </>
+        </div>
     )
 }

@@ -5,22 +5,22 @@ input[type="checkbox"] {
 
 input[type="checkbox"]::after{
     font-family: "Font Awesome 6 Free";
-    font-size: 24px;
     color: var(--body_color);
+    font-size: 2em;
     content: "\f186";
 }
 
 input[type="checkbox"]:hover::after{
     font-family: "Font Awesome 6 Free";
-    font-size: 24px;
     color: var(--body_color);
+    font-size: 2em;
     content: "\f186";
     text-shadow: 0px 0px 2px var(--body_color);
 }
 
 input[type="checkbox"]:checked::after{
     font-family: "Font Awesome 6 Free";
-    font-size: 22px;
+    font-size: 2em;
     color: var(--body_color);
     content: "\f185";
     
@@ -28,7 +28,7 @@ input[type="checkbox"]:checked::after{
 
 input[type="checkbox"]:hover:checked::after{
     font-family: "Font Awesome 6 Free";
-    font-size: 22px;
+    font-size: 2em;
     color: var(--body_color);
     content: "\f185";
     text-shadow: 0px 0px 2px var(--body_color);
