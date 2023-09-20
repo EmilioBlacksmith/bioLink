@@ -3,7 +3,7 @@ import '../styles/profile.css';
 export function Profile(){
     return(
         <div className="profile">
-            <img src='src/img/profile.jpg'></img>
+            <img src='assets/images/profile.jpg'></img>
             <div className='name'>Emilio (Blacksmith) Herrera</div>
             <div className='description'>I make dev fun to watch (sometimes...)</div>
             <div className="social-media">
