@@ -16,7 +16,7 @@ img{
 
 .description {
     font-size: 1.1vw;
-    color: #ffffff;
+    color: #747474;
     font-weight: lighter;
 }
 
@@ -30,7 +30,11 @@ img{
     gap: 10%;
 }
 
-@media only screen and (max-width: 800px) {
+.social-media a:hover{
+    text-shadow: 0 0 10px var(--body_button_shadow);;
+}
+
+@media only screen and (max-width: 850px) {
     img {
         width: 125px;
     }
