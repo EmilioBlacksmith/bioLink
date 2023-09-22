@@ -1,6 +1,6 @@
 # Personal Bio Links [![status](https://img.shields.io/website-up-down-green-red/http/emilioblacksmith.github.io.svg)](https://emilioblacksmith.github.io/bioLink/)
 
-## A fully functional project in React, Showing all of my main social links for sharing
+## A Website Project for showing all of my main social links, to share in my social media
 
 This project is a website to showcase my main links, and to help out strangers to know my current social media and personal projects that are currently in the making. It is based in Linktree and Linkin.bio. The main features of this projects are:
 
@@ -9,6 +9,7 @@ This project is a website to showcase my main links, and to help out strangers t
 * A responsive design that changes depending if the user is in mobile or desktop.
 
 ## Preview
+![preview website](https://github.com/EmilioBlacksmith/bioLink/assets/71019624/7aabc4e6-1c7f-4634-96c9-9c4229156f75)
 
 ## How to tweak this project for your own uses
 
