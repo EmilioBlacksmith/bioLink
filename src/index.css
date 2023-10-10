@@ -1,6 +1,11 @@
+@font-face {
+    font-family: Hack;
+    src: url(./assets/fonts/HackNerdFontMono-Bold.ttf);
+}
+
 :root {
     --body_background: #c5dafd;
-    --body_color: #0f1013;
+    --body_color: #000000;
     --body_button_color:  rgba(0,0,0,.25);
     --body_button_shadow: rgba(0, 0, 0, 0.25);
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
@@ -8,7 +13,7 @@
 }
 
 [data-theme="dark"] {
-    --body_background: #0D1117;
+    --body_background: #151D28;
     --body_color: #DBEDF3;
     --body_button_color:  rgba(0,0,0,.25);
     --body_button_shadow: rgba(255, 255, 255, 0.25);
@@ -19,6 +24,7 @@
     margin: 0px;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: Hack;
 }
 
 body{
