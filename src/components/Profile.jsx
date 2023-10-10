@@ -3,7 +3,7 @@ import '../styles/profile.css';
 export function Profile(){
     return(
         <div className="profile">
-            <img src='https://raw.githubusercontent.com/EmilioBlacksmith/bioLink/main/src/images/profile.jpg?token=GHSAT0AAAAAACGIOK2GSOGRJ5NRY7RCWO2UZIKSTMA'></img>
+            <img src='/assets/profile.jpg'></img>
             <div className='name'>Emilio (Blacksmith) Herrera</div>
             <div className='description'>I make dev fun to watch (sometimes...)</div>
             <div className="social-media">
