@@ -17,7 +17,7 @@ img{
 
 .description {
     font-size: 1.1vw;
-    color: #747C88;
+    color: var(--body_description);
     font-weight: lighter;
 }
 

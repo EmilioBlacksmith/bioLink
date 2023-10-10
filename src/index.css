@@ -9,6 +9,7 @@
     --body_color: #000000;
     --body_button_color:  rgba(0,0,0,.25);
     --body_button_shadow: rgba(0, 0, 0, 0.25);
+    --body_description: #1b225f;
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
     font-family: 'Roboto', sans-serif;
 }
@@ -18,6 +19,7 @@
     --body_color: #DBEDF3;
     --body_button_color:  rgba(0,0,0,.25);
     --body_button_shadow: rgba(255, 255, 255, 0.25);
+    --body_description: #6db0c7;
 }
 
 *{
