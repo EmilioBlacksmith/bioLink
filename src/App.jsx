@@ -15,7 +15,7 @@ function App() {
         <Links />
       </div>
       <div className='footer'>
-        <p>Developed by <a href='https://github.com/EmilioBlacksmith' target='_blank'><b>Emilio (Blacksmith) Herrera</b></a>. </p>
+        <p>Developed by <a href='https://github.com/EmilioBlacksmith' target='_blank'><b>Emilio (Blacksmith) Herrera 󰊤</b></a>. </p>
       </div>
     </div>
   )
