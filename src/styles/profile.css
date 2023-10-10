@@ -26,7 +26,7 @@ img{
     width: 100%;
     align-items: center;
     justify-content: space-around;
-    font-size: 2.25vw;
+    font-size: 3em;
     gap: 10%;
 }
 
@@ -40,7 +40,7 @@ img{
     }
 
     .social-media{
-        font-size: 25px;
+        font-size: 2.5em;
     }
 
     .name{
@@ -58,7 +58,7 @@ img{
     }
 
     .social-media{
-        font-size: 36px;
+        font-size: 4em;
     }
 
     .name{
