@@ -3,7 +3,7 @@ import '../styles/profile.css';
 export function Profile(){
     return(
         <div className="profile">
-            <img src='./assets/profile.webp'></img>
+            <img src='./assets/profile.webp' alt="Emilio Blacksmith's Profile Picture"></img>
             <div className='name'>Emilio (Blacksmith) Herrera</div>
             <div className='description'>I make dev fun to watch (sometimes...)</div>
             <div className="social-media">

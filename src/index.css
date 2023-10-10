@@ -1,6 +1,7 @@
 @font-face {
     font-family: Hack;
     src: url(./fonts/HackNerdFontMono-Bold.ttf);
+    font-display: swap;
 }
 
 :root {

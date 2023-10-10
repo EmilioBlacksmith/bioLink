@@ -36,14 +36,15 @@ export function DarkModeToggle(){
 
     return (
         <>
-        <input 
-            className='dark_mode_input'
-            type='checkbox'
-            id='darkmode-toggle'
-            onChange={handleDarkMode}
-            defaultChecked={theme === 'dark'}
-        >   
-        </input>
+            <label for="darkmode-toggle" hidden> dark mode toggle</label>
+            <input 
+                className='dark_mode_input'
+                type='checkbox'
+                id='darkmode-toggle'
+                onChange={handleDarkMode}
+                defaultChecked={theme === 'dark'}
+            >   
+            </input>
         </>
     )
 }
