@@ -22,12 +22,6 @@ This project was meant for personal use to share my main links, so I'd encourage
         git clone git@github.com:EmilioBlacksmith/bioLink.git
     ```
 
-    or
-
-    ```shell
-        git clone https://github.com/EmilioBlacksmith/bioLink.git
-    ```
-
 3. I would suggest changing the next:
     * src/components/Links.jsx
     * src/components/Profile.jsx
