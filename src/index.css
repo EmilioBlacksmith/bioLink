@@ -1,6 +1,6 @@
 @font-face {
     font-family: Hack;
-    src: url(./fonts/HackNerdFontMono-Bold.ttf);
+    src: url(/assets/fonts/HackNerdFontMono-Bold.ttf);
     font-display: swap;
 }
 
@@ -9,7 +9,7 @@
     --body_color: #000000;
     --body_button_color:  rgba(0,0,0,.25);
     --body_button_shadow: rgba(0, 0, 0, 0.25);
-    --body_description: #1b225f;
+    --body_description: #0618b6;
     @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
     font-family: 'Roboto', sans-serif;
 }
@@ -28,6 +28,7 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: Hack;
+    transition: ease-in-out .1s;
 }
 
 body{
