@@ -9,7 +9,9 @@ This project is a website to showcase my main links, and to help out strangers t
 * A responsive design that changes depending if the user is in mobile or desktop.
 
 ## Preview
-![preview website](https://github.com/EmilioBlacksmith/bioLink/assets/71019624/7aabc4e6-1c7f-4634-96c9-9c4229156f75)
+![Mobile Preview](https://github.com/EmilioBlacksmith/bioLink/assets/71019624/18c9e920-68bb-4253-94ba-e94155e35699)
+![Website Preview](https://github.com/EmilioBlacksmith/bioLink/assets/71019624/36654b13-cf7c-4676-9414-37bf34960e45)
+
 
 ## How to tweak this project for your own uses
 
@@ -52,4 +54,5 @@ Star it or share it to anyone that would find it useful for their own purpose an
 ![nodejs](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![javacript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white) ![vscode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
 ## Lighthouse Performance
-![biolink performance](https://github.com/EmilioBlacksmith/bioLink/assets/71019624/9f9c68d2-193f-4fca-beb9-75ac29977f2e)
+![Lighthouse Biolink](https://github.com/EmilioBlacksmith/bioLink/assets/71019624/dbe0192c-f740-4d64-8da4-8441c93d3c0c)
+
