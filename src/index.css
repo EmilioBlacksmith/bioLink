@@ -5,21 +5,23 @@
 }
 
 :root {
-    --body_background: #c5dafd;
+    --body_background: #b1cbf8;
     --body_color: #000000;
-    --body_button_color:  rgba(0,0,0,.25);
-    --body_button_shadow: rgba(0, 0, 0, 0.25);
-    --body_description: #0618b6;
-    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-    font-family: 'Roboto', sans-serif;
+    --body_button_color:  #091C49;
+    --body_button_shadow: rgb(0, 0, 0, 0.3);
+    --body_section_background: rgba(0, 0, 0, 0.15);
+    --body_button_text: #cfcfcf;
+    --body_description: #091C49;
 }
 
 [data-theme="dark"] {
-    --body_background: #151D28;
+    --body_background: #0e1929;
     --body_color: #DBEDF3;
-    --body_button_color:  rgba(0,0,0,.25);
-    --body_button_shadow: rgba(255, 255, 255, 0.25);
-    --body_description: #6db0c7;
+    --body_button_color:  #81A3EE;
+    --body_button_shadow: rgba(255, 255, 255, 0.3);
+    --body_section_background: rgba(0, 0, 0, 0.15);
+    --body_button_text: #171717;
+    --body_description: #81A3EE;
 }
 
 *{
@@ -28,7 +30,6 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: Hack;
-    transition: ease-in-out .1s;
 }
 
 body{
@@ -36,10 +37,13 @@ body{
     color: var(--body_color);
     width: 100vw;
     height: 100vh;
+    transition: ease .05s;
 }
 
 a{
-    color: var(--body_color);
+    color: var(--body_text_color);
+    transition: ease-in .1s;
+    text-transform: uppercase;
 }
 
 .container {
@@ -117,5 +121,12 @@ a{
         flex-direction: column;
         gap: 30px;
         align-items: center;    
+    }
+}
+
+@media (hover: hover){
+    a:hover{  
+        filter: drop-shadow(0px 0px 4px var(--body_button_shadow));
+        transform: scale(102%);
     }
 }

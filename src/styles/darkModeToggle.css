@@ -1,3 +1,7 @@
+.darkmode_label{
+    visibility: hidden;
+}
+
 input[type="checkbox"] {
     appearance: none;
     cursor: pointer;
@@ -6,30 +10,30 @@ input[type="checkbox"] {
 input[type="checkbox"]::after{
     font-family: Hack;
     color: var(--body_color);
-    font-size: 3em;
+    font-size: 4em;
     content: "\f186";
 }
 
 input[type="checkbox"]:hover::after{
     font-family: Hack;
     color: var(--body_color);
-    font-size: 3em;
+    font-size: 4em;
     content: "\f186";
     text-shadow: 0px 0px 2px var(--body_color);
 }
 
 input[type="checkbox"]:checked::after{
     font-family: Hack;
-    font-size: 3em;
+    font-size: 4em;
     color: var(--body_color);
-    content: "\f185";
+    content: "\f522";
     
 }
 
 input[type="checkbox"]:hover:checked::after{
     font-family: Hack;
-    font-size: 3em;
+    font-size: 4em;
     color: var(--body_color);
-    content: "\f185";
+    content: "\f522";
     text-shadow: 0px 0px 2px var(--body_color);
 }

@@ -4,22 +4,24 @@
     gap: 48px;
     align-items: center;
     width: 40vw; 
+    height: 50vh;
+    justify-content: center;
+    background-color: var(--body_section_background);
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px #00000025;
 }
 
 .button { 
-    width: 100%;
+    width: 90%;
     height: 60px;
     background-color: var(--body_button_color);
+    color: var(--body_button_text);
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
 }
 
-.button:hover{
-    box-shadow: 0 0 10px 0px var(--body_description);
-    border: .1em solid var(--body_description);
-}
 
 @media only screen and (max-width: 850px){
     .links{

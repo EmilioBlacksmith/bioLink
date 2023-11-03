@@ -36,7 +36,7 @@ export function DarkModeToggle(){
 
     return (
         <>
-            <label htmlFor="darkmode-toggle" hidden> dark mode toggle</label>
+            <label htmlFor="darkmode-toggle" className='darkmode_label'> dark mode toggle</label>
             <input 
                 className='dark_mode_input'
                 type='checkbox'

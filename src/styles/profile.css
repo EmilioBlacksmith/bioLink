@@ -3,11 +3,10 @@
 }
 
 img{
-    width: 12.5vw;
-    height: auto;
+    width: 25%;
+    height:fit-content;
     border-radius: 50%;
-    z-index: -2;
-    box-shadow: 0 0 25px 0px  #000000;
+    filter: drop-shadow(0px 4px 8px #00000075);
 }
 
 .name{
@@ -29,11 +28,23 @@ img{
     justify-content: space-around;
     font-size: 3em;
     gap: 10%;
+    color: var(--body_description);
 }
 
-.social-media a:hover{
-    filter: drop-shadow(0 0 6px var(--body_button_shadow));
+.profile{
+    background-color: var(--body_section_background);
+    width: 40vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: 4px 4px 8px #00000025;
+    gap: 24px;
+    padding: 12px;
 }
+
 
 @media only screen and (max-width: 850px) {
     img {
@@ -67,5 +78,12 @@ img{
     }
     .description{
         font-size: 20px;
+    }
+}
+
+@media (hover: hover){
+    
+    .social-media a:hover{
+        transform: scale(110%);
     }
 }
