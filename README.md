@@ -55,4 +55,3 @@ Star it or share it to anyone that would find it useful for their own purpose an
 
 ## Lighthouse Performance
 ![Lighthouse Biolink](https://github.com/EmilioBlacksmith/bioLink/assets/71019624/dbe0192c-f740-4d64-8da4-8441c93d3c0c)
-
