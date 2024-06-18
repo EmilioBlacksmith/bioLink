@@ -10,19 +10,15 @@ export function Profile() {
 				></img>
 			</a>
 			<div className="name">Emilio (Blacksmith) Herrera</div>
-			<div className="description">I make dev fun to watch (sometimes...)</div>
+			<div className="description">
+				Developing some fun stuff (sometimes...)
+			</div>
 			<div className="social-media">
 				<a
 					href="https://twitter.com/EmilioBlacksmit"
 					target="_blank"
 				>
 					
-				</a>
-				<a
-					href="https://www.instagram.com/emilioblacksmith/"
-					target="_blank"
-				>
-					
 				</a>
 				<a
 					href="https://www.youtube.com/emilioblacksmith"
