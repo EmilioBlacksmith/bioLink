@@ -5,7 +5,7 @@ export function Profile() {
 		<div className="profile">
 			<a href="/bioLink/">
 				<img
-					src="https://pbs.twimg.com/profile_images/1781539219384545280/VL8ZsI0O_400x400.jpg"
+					src="https://pbs.twimg.com/profile_images/1801773800377487362/_HU-TPws_400x400.jpg"
 					alt="Emilio Blacksmith's Profile Picture"
 				></img>
 			</a>
